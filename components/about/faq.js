@@ -31,8 +31,8 @@ const FAQ = () => {
           All information you need to know
         </p>
         <div className="space-y-4 mt-3">
-          {faqsList.map((item) => (
-            <details className="w-full border rounded-lg">
+          {faqsList.map((item, idx) => (
+            <details className="w-full border rounded-lg" key={idx}>
               <summary className="px-4 py-6 focus:outline-none focus-visible:ring-blue-600">
                 {item.q}
               </summary>

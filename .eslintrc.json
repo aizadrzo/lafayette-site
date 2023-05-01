@@ -1,5 +1,5 @@
 {
-  "extends": ["eslint:recommended", "prettier"],
+  "extends": ["eslint:recommended", "prettier", "next/core-web-vitals"],
   "plugins": [], //insert if any
   "parserOptions": {
     "ecmaVersion": "2022",

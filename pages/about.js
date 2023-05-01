@@ -1,30 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import { FAQ, InsuranceOutline, Section } from "@/components";
-import Link from "next/link";
+
 const About = () => {
   return (
     <React.Fragment>
-      <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-        <div className="items-start justify-between py-4 border-b md:flex">
-          <div className="max-w-lg">
-            <h3 className="text-gray-800 text-2xl font-bold">About Us</h3>
-            <p className="text-gray-600 mt-2">
-              Insure everything with Lafayette Insurance Agency - auto, home,
-              life, health, and combined benefits. We're a local business,
-              committed to our customers' satisfaction. Get in touch today for
-              your auto and property insurance needs.
-            </p>
-          </div>
-          <div className="mt-6 md:mt-0">
-            <Link
-              href="/contact"
-              className="block px-4 py-2 text-center text-white duration-150 font-medium bg-indigo-600 rounded-lg hover:bg-indigo-500 active:bg-indigo-700 md:text-sm"
-            >
-              Contact Us
-            </Link>
-          </div>
-        </div>
-      </div>
       <div className="container mx-auto max-w-screen-xl px-4 md:px-8">
         {/* meet the agent */}
         <Section title={"Ramesh Retnam"} subtitle={"Meet the Agent"} ltr={true}>

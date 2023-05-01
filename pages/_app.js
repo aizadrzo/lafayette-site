@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
   }, []);
 
   const getLayout =
-    Component.getLayout || ((page) => <MainLayout children={page} />);
+    Component.getLayout || ((page) => <MainLayout>{page}</MainLayout>);
 
   return getLayout(<Component {...pageProps} />);
 }

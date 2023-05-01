@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { useState } from "react";
 
 const Nav = () => (
   <header className="max-w-screen-xl mx-auto flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800">

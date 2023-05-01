@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const CTA = () => {
@@ -15,7 +16,7 @@ const CTA = () => {
             questions and needs, including auto and property insurance.
           </p>
         </div>
-        <a
+        <Link
           className="cta-pr-btn px-4 py-2 text-indigo-600 font-medium bg-indigo-50 rounded-full inline-flex items-center"
           href="/contact"
         >
@@ -34,7 +35,7 @@ const CTA = () => {
               d="M13 7l5 5m0 0l-5 5m5-5H6"
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </section>
   );

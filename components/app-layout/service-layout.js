@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import Link from "next/link";
-import { CTA } from "../home";
 import { useRouter } from "next/router";
+import { CTA } from "../home";
 
 const ServiceLayout = ({ children }) => {
   const router = useRouter();
