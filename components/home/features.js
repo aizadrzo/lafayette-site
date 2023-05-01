@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Features = () => {
@@ -21,7 +22,7 @@ const Features = () => {
       ),
       title: "Auto Insurance",
       desc: "Lafayette Insurance Agency offers auto insurance in Lafayette County. With years of experience, we are dedicated to providing our customers with the best possible coverage. Our team of experts is always available to help you make the right choice.",
-      link: "#",
+      link: "/services/auto-insurance",
     },
     {
       icon: (
@@ -42,7 +43,7 @@ const Features = () => {
       ),
       title: "Commercial Insurance",
       desc: "Commercial insurance is essential for protecting your business from potential liabilities due to accidents, injuries, property damage, and unforeseen events. Choose a reliable agency like Lafayette Insurance Agency for your commercial insurance needs.",
-      link: "#",
+      link: "/services/commercial-insurance",
     },
     {
       icon: (
@@ -63,7 +64,7 @@ const Features = () => {
       ),
       title: "Property Insurance",
       desc: "Protect your investment with property insurance from Lafayette Insurance Agency. We offer a variety of options, including coverage for your home, condominium, rental property, and more. Get peace of mind knowing your property is protected.",
-      link: "#",
+      link: "/services/property-insurance",
     },
   ];
   return (
@@ -97,7 +98,7 @@ const Features = () => {
                   {item.title}
                 </h4>
                 <p>{item.desc}</p>
-                <a
+                <Link
                   href={item.link}
                   className="inline-flex gap-x-1 items-center text-indigo-600 hover:text-indigo-500 duration-150 font-medium"
                 >
@@ -114,7 +115,7 @@ const Features = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

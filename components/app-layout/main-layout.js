@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "./footer";
 import Nav from "./nav";
 
-const Layout = ({ children }) => (
+const MainLayout = ({ children }) => (
   <div className="min-h-screen flex flex-col">
     <Nav />
     <main className="flex-1">{children}</main>
@@ -10,4 +10,4 @@ const Layout = ({ children }) => (
   </div>
 );
 
-export default Layout;
+export default MainLayout;

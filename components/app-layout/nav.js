@@ -59,7 +59,7 @@ const Nav = () => (
           </Link>
           <Link
             className="font-medium text-gray-600 hover:text-gray-400"
-            href="/services"
+            href="/services/auto-insurance"
           >
             Services
           </Link>

@@ -22,7 +22,7 @@ const InsuranceOutline = () => {
       title: "Auto Insurance",
       desc: "Elements required for your coverage:",
       list: ["VIN number", "Name", "Date of birth", "Identification (ID)"],
-      link: "#",
+      link: "/services/auto-insurance",
     },
     {
       icon: (
@@ -51,7 +51,7 @@ const InsuranceOutline = () => {
         "Masonry businesses",
         "House painters",
       ],
-      link: "#",
+      link: "/services/commercial-insurance",
     },
     {
       icon: (
@@ -80,7 +80,7 @@ const InsuranceOutline = () => {
         "Condominiums",
         "Earthquakes",
       ],
-      link: "#",
+      link: "/services/property-insurance",
     },
   ];
   return (
