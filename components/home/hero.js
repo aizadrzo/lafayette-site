@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Hero = () => {
   return (
     <section className="text-gray-800">
@@ -12,20 +14,18 @@ const Hero = () => {
             Peace of Mind.
           </p>
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-            <a
-              rel="noopener noreferrer"
+            <Link
               href="#"
               className="px-8 py-3 text-lg font-semibold rounded bg-indigo-600 text-gray-50"
             >
               Get Your Quote Today
-            </a>
-            <a
-              rel="noopener noreferrer"
+            </Link>
+            <Link
               href="#"
               className="px-8 py-3 text-lg font-semibold border rounded border-gray-800"
             >
               Call Now
-            </a>
+            </Link>
           </div>
         </div>
       </div>

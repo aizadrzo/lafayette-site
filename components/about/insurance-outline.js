@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const InsuranceOutline = () => {
@@ -133,7 +134,7 @@ const InsuranceOutline = () => {
                     </li>
                   ))}
                 </ul>
-                <a
+                <Link
                   href={item.link}
                   className="inline-flex gap-x-1 items-center text-indigo-600 hover:text-indigo-500 duration-150 font-medium"
                 >
@@ -150,7 +151,7 @@ const InsuranceOutline = () => {
                       clipRule="evenodd"
                     />
                   </svg>
-                </a>
+                </Link>
               </li>
             ))}
           </ul>
