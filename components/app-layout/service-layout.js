@@ -63,20 +63,20 @@ const ServiceLayout = ({ children }) => {
                   {/* Common Section */}
                   <figure>
                     <img
-                      class="w-full object-cover rounded-xl"
+                      className="w-full object-cover rounded-xl"
                       src="https://images.unsplash.com/photo-1670272498380-eb330b61f3cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
                       alt="Image Description"
                     />
-                    <figcaption class="mt-3 text-sm text-center text-gray-500">
+                    <figcaption className="mt-3 text-sm text-center text-gray-500">
                       A man and a woman looking at a cell phone.
                     </figcaption>
                   </figure>
-                  <div class="space-y-3">
-                    <h3 class="text-2xl font-semibold dark:text-white">
+                  <div className="space-y-3">
+                    <h3 className="text-2xl font-semibold dark:text-white">
                       Lafayette Insurance Experience
                     </h3>
 
-                    <p class="text-lg text-gray-600 dark:text-gray-200">
+                    <p className="text-lg text-gray-600 dark:text-gray-200">
                       At Lafayette Insurance we work with you in order to figure
                       out the best homeowners insurance policy for you and your
                       family. Lafayette Insurance has been a key provider in
