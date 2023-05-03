@@ -16,13 +16,10 @@ const AutoInsurance = () => (
     </div>
     <figure>
       <img
-        className="w-full object-cover rounded-xl"
+        className="w-full object-cover"
         src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
         alt="Image Description"
       />
-      <figcaption className="mt-3 text-sm text-center text-gray-500">
-        A woman sitting at a table.
-      </figcaption>
     </figure>
 
     <div className="space-y-3">
@@ -73,7 +70,7 @@ const AutoInsurance = () => (
           damaged from the accident. If you are found at fault in a car accident
           and do not have car insurance, you will have to pay out of pocket and
           can damage your driving record. It is extremely important to have
-          liability coverage to help offset costs from an accident
+          liability coverage to help offset costs from an accident.
         </li>
         <li className="pl-2">
           If you are leasing a vehicle, it is likely your lender will require

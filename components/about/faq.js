@@ -22,8 +22,8 @@ const FAQ = () => {
     },
   ];
   return (
-    <section className="text-gray-800">
-      <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
+    <section className="py-12">
+      <div className="container flex flex-col justify-center mx-auto">
         <h3 className="font-semibold text-indigo-600">
           Frequently asked questions
         </h3>

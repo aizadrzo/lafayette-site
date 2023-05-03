@@ -17,7 +17,7 @@ const Contact = () => {
           />
         </svg>
       ),
-      contact: "Support@example.com",
+      contact: "ramesh@lafayetteinsuranceagency.com",
     },
     {
       icon: (
@@ -36,7 +36,7 @@ const Contact = () => {
           />
         </svg>
       ),
-      contact: "+1 (555) 000-000",
+      contact: "662-801-7758",
     },
     {
       icon: (
@@ -60,12 +60,12 @@ const Contact = () => {
           />
         </svg>
       ),
-      contact: "Mountain View, California, United State.",
+      contact: "404 Galleria Dr Suite 8, Oxford, MS 38655.",
     },
   ];
 
   return (
-    <main className="py-14">
+    <div className="py-14">
       <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
         <div className="max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none">
           <div className="max-w-lg space-y-3">
@@ -129,7 +129,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </main>
+    </div>
   );
 };
 
