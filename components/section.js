@@ -20,7 +20,7 @@ const Section = ({
     { "lg:flex-row-reverse": ltr }
   );
   return (
-    <section className="py-14">
+    <section className="py-12">
       <div className={flexDirection}>
         <div className="flex-1 sm:hidden lg:block">
           <img

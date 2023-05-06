@@ -1,4 +1,6 @@
-const FAQ = () => {
+import React from "react";
+
+const Faq = () => {
   const faqsList = [
     {
       q: "What is an insurance?",
@@ -22,33 +24,28 @@ const FAQ = () => {
     },
   ];
   return (
-    <section className="py-12">
-      <div className="container flex flex-col justify-center mx-auto">
+    <div className="py-14">
+      <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
         <div className="space-y-5">
-          <div className="space-y-3">
-            <h3 className="font-semibold text-blue-600">
-              Frequently asked questions
+          <div className="max-w space-y-3">
+            <h3 className="text-blue-600 font-semibold">
+              Frequently Asked Questions
             </h3>
             <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
               All information you need to know
             </p>
           </div>
-          <div className="space-y-5">
-            {faqsList.map((item, idx) => (
-              <details className="w-full border rounded-lg" key={idx}>
-                <summary className="px-4 py-6 focus:outline-none focus-visible:ring-blue-600">
-                  {item.q}
-                </summary>
-                <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
-                  {item.a}
-                </p>
-              </details>
-            ))}
-          </div>
+          {faqsList.map((item, idx) => (
+            <div className="space-y-3 pt-10" key={idx}>
+              <h2 className="text-2xl font-semibold text-gray-800">{item.q}</h2>
+
+              <p className="text-lg ">{item.a}</p>
+            </div>
+          ))}
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
-export default FAQ;
+export default Faq;

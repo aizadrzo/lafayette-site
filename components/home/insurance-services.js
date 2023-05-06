@@ -27,7 +27,7 @@ const InsuranceServices = () => {
     },
   ];
   return (
-    <div className="py-14">
+    <div className="py-12">
       <div className="max-w-xl space-y-3">
         <h3 className="text-blue-600 font-semibold">Products and Services</h3>
         <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">

@@ -51,7 +51,7 @@ const Nav = () => (
             className="font-medium text-gray-600 hover:text-gray-400"
             href="/about"
           >
-            About
+            About Us
           </Link>
           <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none]">
             <button

@@ -1,40 +1,41 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import Image from "next/image";
+import Town from "../public/town.jpeg";
 import { FAQ, InsuranceOutline, Section } from "@/components";
-import Link from "next/link";
 
 const About = () => {
   return (
-    <React.Fragment>
+    <div className="py-14">
       <div className="container mx-auto max-w-screen-xl px-4 md:px-8">
-        <div className="items-start justify-between py-4  border-b md:flex">
-          <div className="max-w-lg space-y-3">
-            <h3 className="text-gray-800 text-2xl font-bold">
-              About Our Agency
-            </h3>
-            <p className="text-gray-600">
-              Lafayette Insurance Agency is your trusted independent insurance
-              agency. As Oxford Mississippi's most comprehensive agency, we
-              offer all types of coverage.
+        <div className="max-w-lg space-y-3">
+          <h3 className="text-blue-600 font-semibold">About Us</h3>
+          <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+            Our Company Story and Values
+          </p>
+        </div>
+        {/* oxford */}
+        <div className="py-12">
+          <Image
+            className="w-full object-cover rounded-lg"
+            src={Town}
+            alt="Image Description"
+          />
+          <div className="mt-6 space-y-3">
+            <h3 className="text-blue-600 font-semibold">Oxford Mississippi</h3>
+            <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+              Oxford Insurance
             </p>
-            <Link
-              href="/services/auto-insurance"
-              className="inline-flex gap-x-1 items-center text-blue-600 hover:text-blue-500 duration-150 font-medium"
-            >
-              View More
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="w-5 h-5"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </Link>
+            <p className="mt-3 text-gray-600">
+              Insurance is a crucial investment for anyone, regardless of where
+              they live. In Oxford, MS, homeowners, contractors, and car owners
+              all recognize the importance of having reliable insurance
+              coverage. That's why Oxford MS Insurance is highly sought after
+              for the best policies in the area. At Lafayette Insurance, we've
+              been serving the North Mississippi region for over 15 years, and
+              we understand what our clients are looking for when it comes to
+              Oxford Insurance.
+            </p>
           </div>
         </div>
         {/* meet the agent */}
@@ -56,24 +57,10 @@ const About = () => {
           to the right protection products for their needs and are committed to
           providing quality coverage at the lowest possible premiums.
         </Section>
-        {/* oxford */}
-        <Section
-          title={"Oxford Mississippi"}
-          subtitle={"Oxford Insurance"}
-          ltr={true}
-        >
-          Insurance is a crucial investment for anyone, regardless of where they
-          live. In Oxford, MS, homeowners, contractors, and car owners all
-          recognize the importance of having reliable insurance coverage. That's
-          why Oxford MS Insurance is highly sought after for the best policies
-          in the area. At Lafayette Insurance, we've been serving the North
-          Mississippi region for over 15 years, and we understand what our
-          clients are looking for when it comes to Oxford Insurance.
-        </Section>
         <InsuranceOutline />
         <FAQ />
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 

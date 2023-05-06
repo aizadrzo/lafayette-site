@@ -85,7 +85,7 @@ const InsuranceOutline = () => {
     },
   ];
   return (
-    <section className="py-14">
+    <section className="py-12">
       <div className="text-gray-600">
         <div className="max-w-xl space-y-3">
           <h3 className="text-blue-600 font-semibold">Products and Services</h3>
