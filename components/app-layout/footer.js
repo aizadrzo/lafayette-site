@@ -3,26 +3,33 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer class="bg-gray-900">
-      <div class="max-w-[85rem] py-10 px-4 sm:px-6 lg:px-8 lg:pt-20 mx-auto">
-        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
-          <div class="col-span-full lg:col-span-1">
+    <footer className="bg-gray-900">
+      <div className="max-w-[85rem] w-full mx-auto px-4  py-10 sm:px-6 lg:px-8 lg:pt-20">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
+          <div className="col-span-full lg:col-span-3 space-y-3">
             <Link
-              class="flex-none text-xl font-semibold text-white"
-              href="#"
+              className="flex-none text-xl font-semibold text-white"
+              href="/"
               aria-label="Brand"
             >
               Brand
             </Link>
+            <p className="inline-flex gap-x-2 text-gray-400 pr-4">
+              Lafayette Insurance Agency, Inc. is the trusted independent
+              insurance agency near me that you can depend on all your insurance
+              coverage needs. As Oxford Mississippi’s most complete
+              comprehensive insurance agency, we offer all types of insurance
+              coverage.
+            </p>
           </div>
 
-          <div class="col-span-1">
-            <h4 class="font-semibold text-gray-100">Services</h4>
+          <div className="col-span-1">
+            <h4 className="font-semibold text-gray-100">Services</h4>
 
-            <div class="mt-3 grid space-y-3">
+            <div className="mt-3 grid space-y-3">
               <p>
                 <Link
-                  class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
                   href="/services/auto-insurance"
                 >
                   Auto Insurance
@@ -30,7 +37,7 @@ const Footer = () => {
               </p>
               <p>
                 <Link
-                  class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
                   href="/services/commercial-insurance"
                 >
                   Commercial Insurance
@@ -38,7 +45,7 @@ const Footer = () => {
               </p>
               <p>
                 <Link
-                  class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
                   href="/services/property-insurance"
                 >
                   Property Insurance
@@ -47,13 +54,13 @@ const Footer = () => {
             </div>
           </div>
 
-          <div class="col-span-1">
-            <h4 class="font-semibold text-gray-100">Links</h4>
+          <div className="col-span-1">
+            <h4 className="font-semibold text-gray-100">Links</h4>
 
-            <div class="mt-3 grid space-y-3">
+            <div className="mt-3 grid space-y-3">
               <p>
                 <Link
-                  class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
                   href="/"
                 >
                   Home
@@ -61,7 +68,7 @@ const Footer = () => {
               </p>
               <p>
                 <Link
-                  class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
                   href="/about"
                 >
                   About us
@@ -69,7 +76,7 @@ const Footer = () => {
               </p>
               <p>
                 <Link
-                  class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
                   href="/services/auto-insurance"
                 >
                   Services
@@ -77,7 +84,7 @@ const Footer = () => {
               </p>
               <p>
                 <Link
-                  class="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
                   href="/contact"
                 >
                   Contact
@@ -85,52 +92,22 @@ const Footer = () => {
               </p>
             </div>
           </div>
-
-          <div class="col-span-2">
-            <h4 class="font-semibold text-gray-100">Stay up to date</h4>
-
-            <form>
-              <div class="mt-4 flex flex-col items-center gap-2 sm:flex-row sm:gap-3 bg-white rounded-md p-2">
-                <div class="w-full">
-                  <label for="hero-input" class="sr-only">
-                    Search
-                  </label>
-                  <input
-                    type="text"
-                    id="hero-input"
-                    name="hero-input"
-                    class="py-3 px-4 block w-full border-transparent shadow-sm rounded-md focus:z-10 focus:border-blue-500 focus:ring-blue-500"
-                    placeholder="Enter your email"
-                  />
-                </div>
-                <Link
-                  class="w-full sm:w-auto whitespace-nowrap inline-flex justify-center items-center gap-x-3 text-center bg-blue-600 hover:bg-blue-700 border border-transparent text-white font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4"
-                  href="#"
-                >
-                  Subscribe
-                </Link>
-              </div>
-              <p class="mt-3 text-sm text-gray-400">
-                New UI kits or big discounts. Never spam.
-              </p>
-            </form>
-          </div>
         </div>
 
-        <div class="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
-          <div class="flex justify-between items-center">
-            <p class="text-sm text-gray-400">
-              © 2022 Preline. All rights reserved.
+        <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
+          <div className="flex justify-between items-center">
+            <p className="text-sm text-gray-400">
+              © 2023 Lafayette Insurance Agency. All rights reserved.
             </p>
           </div>
 
           <div>
             <Link
-              class="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition"
+              className="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition"
               href="#"
             >
               <svg
-                class="w-4 h-4"
+                className="w-4 h-4"
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -141,11 +118,11 @@ const Footer = () => {
               </svg>
             </Link>
             <Link
-              class="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition"
+              className="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition"
               href="#"
             >
               <svg
-                class="w-4 h-4"
+                className="w-4 h-4"
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -156,11 +133,11 @@ const Footer = () => {
               </svg>
             </Link>
             <Link
-              class="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition"
+              className="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition"
               href="#"
             >
               <svg
-                class="w-4 h-4"
+                className="w-4 h-4"
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -171,11 +148,11 @@ const Footer = () => {
               </svg>
             </Link>
             <Link
-              class="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition"
+              className="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition"
               href="#"
             >
               <svg
-                class="w-4 h-4"
+                className="w-4 h-4"
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -186,11 +163,11 @@ const Footer = () => {
               </svg>
             </Link>
             <Link
-              class="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition"
+              className="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-200 hover:bg-white/[.1] rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition"
               href="#"
             >
               <svg
-                class="w-4 h-4"
+                className="w-4 h-4"
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"

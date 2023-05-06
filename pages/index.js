@@ -1,5 +1,6 @@
 import React from "react";
 import { CTA, Hero, InsuranceServices, Section } from "@/components";
+
 const Home = () => {
   return (
     <React.Fragment>

@@ -71,12 +71,13 @@ const Contact = () => {
           <div className="max-w-lg space-y-3">
             <h3 className="text-indigo-600 font-semibold">Contact</h3>
             <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-              Let us know how we can help
+              Get Your Quote Today
             </p>
             <p>
-              We’re here to help and answer any question you might have, We look
-              forward to hearing from you! Please fill out the form, or us the
-              contact information bellow .
+              Lafayette Insurance Agency is your one-stop-shop for all your
+              insurance needs. We put customers first and provide easy
+              accessibility for all. Contact us today for all your insurance
+              questions and needs, including auto and property insurance.
             </p>
             <div>
               <ul className="mt-6 flex flex-wrap gap-x-10 gap-y-6 items-center">
@@ -108,9 +109,9 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <label className="font-medium">Company</label>
+                <label className="font-medium">Phone Number</label>
                 <input
-                  type="text"
+                  type="phone"
                   required
                   className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
                 />
