@@ -3,18 +3,18 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900">
+    <footer className="bg-gray-100">
       <div className="max-w-[85rem] w-full mx-auto px-4  py-10 sm:px-6 lg:px-8 lg:pt-20">
         <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6">
           <div className="col-span-full lg:col-span-3 space-y-3">
             <Link
-              className="flex-none text-xl font-semibold text-white"
+              className="flex-none text-xl font-semibold text-gray-800"
               href="/"
-              aria-label="Brand"
+              ariaLabel="Brand"
             >
               Brand
             </Link>
-            <p className="inline-flex gap-x-2 text-gray-400 pr-4">
+            <p className="inline-flex gap-x-2 text-gray-600 pr-4">
               Lafayette Insurance Agency, Inc. is the trusted independent
               insurance agency near me that you can depend on all your insurance
               coverage needs. As Oxford Mississippi’s most complete
@@ -24,12 +24,12 @@ const Footer = () => {
           </div>
 
           <div className="col-span-1">
-            <h4 className="font-semibold text-gray-100">Services</h4>
+            <h4 className="font-semibold text-gray-800">Services</h4>
 
             <div className="mt-3 grid space-y-3">
               <p>
                 <Link
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-gray-400"
                   href="/services/auto-insurance"
                 >
                   Auto Insurance
@@ -37,7 +37,7 @@ const Footer = () => {
               </p>
               <p>
                 <Link
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-gray-400"
                   href="/services/commercial-insurance"
                 >
                   Commercial Insurance
@@ -45,7 +45,7 @@ const Footer = () => {
               </p>
               <p>
                 <Link
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-gray-400"
                   href="/services/property-insurance"
                 >
                   Property Insurance
@@ -55,12 +55,12 @@ const Footer = () => {
           </div>
 
           <div className="col-span-1">
-            <h4 className="font-semibold text-gray-100">Links</h4>
+            <h4 className="font-semibold text-gray-800">Links</h4>
 
             <div className="mt-3 grid space-y-3">
               <p>
                 <Link
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-gray-400"
                   href="/"
                 >
                   Home
@@ -68,7 +68,7 @@ const Footer = () => {
               </p>
               <p>
                 <Link
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-gray-400"
                   href="/about"
                 >
                   About us
@@ -76,7 +76,7 @@ const Footer = () => {
               </p>
               <p>
                 <Link
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-gray-400"
                   href="/services/auto-insurance"
                 >
                   Services
@@ -84,7 +84,7 @@ const Footer = () => {
               </p>
               <p>
                 <Link
-                  className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                  className="inline-flex gap-x-2 text-gray-600 hover:text-gray-400"
                   href="/contact"
                 >
                   Contact
@@ -96,7 +96,7 @@ const Footer = () => {
 
         <div className="mt-5 sm:mt-12 grid gap-y-2 sm:gap-y-0 sm:flex sm:justify-between sm:items-center">
           <div className="flex justify-between items-center">
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-gray-600">
               © 2023 Lafayette Insurance Agency. All rights reserved.
             </p>
           </div>

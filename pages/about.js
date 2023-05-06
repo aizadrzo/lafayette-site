@@ -19,7 +19,7 @@ const About = () => {
             </p>
             <Link
               href="/services/auto-insurance"
-              className="inline-flex gap-x-1 items-center text-indigo-600 hover:text-indigo-500 duration-150 font-medium"
+              className="inline-flex gap-x-1 items-center text-blue-600 hover:text-blue-500 duration-150 font-medium"
             >
               View More
               <svg

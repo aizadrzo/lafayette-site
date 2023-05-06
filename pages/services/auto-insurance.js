@@ -4,10 +4,8 @@ import { MainLayout, ServiceLayout } from "@/components";
 const AutoInsurance = () => (
   <React.Fragment>
     <div className="space-y-3">
-      <h2 className="text-2xl font-bold md:text-3xl dark:text-white">
-        Auto Insurance
-      </h2>
-      <p className="text-lg text-gray-600 dark:text-gray-200">
+      <h2 className="text-2xl font-bold md:text-3xl">Auto Insurance</h2>
+      <p className="text-lg text-gray-600">
         Lafayette Insurance Agency offers auto insurance in Lafayette County.
         With years of experience, we are dedicated to providing our customers
         with the best possible coverage. Our team of experts is always available
@@ -16,16 +14,16 @@ const AutoInsurance = () => (
     </div>
     <figure>
       <img
-        className="w-full object-cover"
+        className="w-full object-cover rounded-lg"
         src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
         alt="Image Description"
       />
     </figure>
 
     <div className="space-y-3">
-      <h2 className="text-2xl font-semibold dark:text-white">What They Do</h2>
+      <h2 className="text-2xl font-semibold">What They Do</h2>
 
-      <p className="text-lg text-gray-600 dark:text-gray-200">
+      <p className="text-lg text-gray-600 ">
         Oxford Auto Insurance is one of the most important types of insurance to
         have. Nearly 85% of the US population is a licensed driver making
         driving in the United States the most popular mean of transportation.
@@ -36,9 +34,9 @@ const AutoInsurance = () => (
     </div>
 
     <div className="space-y-3">
-      <h3 className="text-2xl font-semibold dark:text-white">What is it?</h3>
+      <h3 className="text-2xl font-semibold">What is it?</h3>
 
-      <p className="text-lg text-gray-600 dark:text-gray-200">
+      <p className="text-lg text-gray-600">
         Oxford auto insurance is any type of insurance or protection on cars,
         trucks, motorcycles and, any other road vehicles. Oxford car insurance
         helps to provide financial protection against physical damage to a car
@@ -49,16 +47,16 @@ const AutoInsurance = () => (
     </div>
 
     <div className="space-y-3">
-      <h3 className="text-2xl font-semibold dark:text-white">
+      <h3 className="text-2xl font-semibold">
         Why you need independent contractor insurance
       </h3>
-      <p className="text-lg text-gray-600 dark:text-gray-200">
+      <p className="text-lg text-gray-600">
         It is necessary for you to have Oxford Auto insurance for many reasons.
         Below are just a few of the main reasons why you need Oxford car
         insurance:
       </p>
       {/* bullet points */}
-      <ul className="list-disc list-outside space-y-5 pl-5 text-lg text-gray-600 dark:text-gray-200">
+      <ul className="list-disc list-outside space-y-5 pl-5 text-lg text-gray-600">
         <li className="pl-2">
           It is required by law in most states to have car insurance. Most
           states have a minimum auto liability coverage limit that drivers in

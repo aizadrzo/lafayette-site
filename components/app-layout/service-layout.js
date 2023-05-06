@@ -40,13 +40,13 @@ const ServiceLayout = ({ children }) => {
                 key={idx}
                 className={`py-2 border-b-2 truncate ${
                   router.pathname === item.link
-                    ? "border-indigo-600 text-indigo-600"
+                    ? "border-blue-600 text-blue-600"
                     : "border-white text-gray-500"
                 }`}
               >
                 <Link
                   href={item.link}
-                  className="py-2.5 px-4 rounded-lg duration-150 text-sm hover:text-indigo-600 hover:bg-gray-50 active:bg-gray-100 font-medium"
+                  className="py-2.5 px-4 rounded-lg duration-150 text-sm hover:text-blue-600 hover:bg-gray-50 active:bg-gray-100 font-medium"
                 >
                   {item.name}
                 </Link>
@@ -60,17 +60,17 @@ const ServiceLayout = ({ children }) => {
                 {/* Common Section */}
                 <figure>
                   <img
-                    className="w-full object-cover"
+                    className="w-full object-cover rounded-lg"
                     src="https://images.unsplash.com/photo-1670272498380-eb330b61f3cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
                     alt="Image Description"
                   />
                 </figure>
                 <div className="space-y-3">
-                  <h3 className="text-2xl font-semibold dark:text-white">
+                  <h3 className="text-2xl font-semibold">
                     Lafayette Insurance Experience
                   </h3>
 
-                  <p className="text-lg text-gray-600 dark:text-gray-200">
+                  <p className="text-lg text-gray-600">
                     At Lafayette Insurance we work with you in order to figure
                     out the best homeowners insurance policy for you and your
                     family. Lafayette Insurance has been a key provider in

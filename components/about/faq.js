@@ -24,7 +24,7 @@ const FAQ = () => {
   return (
     <section className="py-12">
       <div className="container flex flex-col justify-center mx-auto">
-        <h3 className="font-semibold text-indigo-600">
+        <h3 className="font-semibold text-blue-600">
           Frequently asked questions
         </h3>
         <p className="mt-3 text-gray-800 text-3xl font-semibold sm:text-4xl">

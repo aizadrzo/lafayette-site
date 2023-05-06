@@ -1,22 +1,19 @@
 import Link from "next/link";
 
 const Nav = () => (
-  <header className="relative flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4 dark:bg-gray-800">
+  <header className="relative flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white text-sm py-4">
     <nav
       className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"
       aria-label="Global"
     >
       <div className="flex items-center justify-between">
-        <Link
-          className="flex-none text-xl font-semibold dark:text-white"
-          href="/"
-        >
+        <Link className="flex-none text-xl font-semibold" href="/">
           Brand
         </Link>
         <div className="sm:hidden">
           <button
             type="button"
-            className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
+            className="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm"
             data-hs-collapse="#navbar-with-mega-menu"
             aria-controls="navbar-with-mega-menu"
             aria-label="Toggle navigation"
@@ -51,7 +48,7 @@ const Nav = () => (
       >
         <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:pl-5">
           <Link
-            className="font-medium text-gray-600 hover:text-gray-400 dark:text-gray-400 dark:hover:text-gray-500"
+            className="font-medium text-gray-600 hover:text-gray-400"
             href="/about"
           >
             About
@@ -60,7 +57,7 @@ const Nav = () => (
             <button
               id="hs-mega-menu-basic-dr"
               type="button"
-              className="flex items-center w-full text-gray-600 hover:text-gray-400 font-medium dark:text-gray-400 dark:hover:text-gray-500 "
+              className="flex items-center w-full text-gray-600 hover:text-gray-400 font-medium "
             >
               Services
               <svg
@@ -80,21 +77,21 @@ const Nav = () => (
               </svg>
             </button>
 
-            <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 z-10 bg-white sm:shadow-md rounded-lg p-2 dark:bg-gray-800 sm:dark:border dark:border-gray-700 dark:divide-gray-700 before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5 hidden">
+            <div className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] sm:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 sm:w-48 z-10 bg-white sm:shadow-md rounded-lg p-2 before:absolute top-full sm:border before:-top-5 before:left-0 before:w-full before:h-5 hidden">
               <Link
-                className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
+                className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 "
                 href="/services/auto-insurance"
               >
                 Auto Insurance
               </Link>
               <Link
-                className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
+                className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                 href="/services/commercial-insurance"
               >
                 Commercial Insurance
               </Link>
               <Link
-                className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
+                className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500"
                 href="/services/property-insurance"
               >
                 Property Insurance
@@ -102,7 +99,7 @@ const Nav = () => (
             </div>
           </div>
           <Link
-            className="py-3 px-4 font-medium text-center text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700 active:shadow-none rounded-lg shadow md:inline"
+            className="py-3 px-4 font-medium text-center text-white bg-blue-600 hover:bg-blue-500 active:shadow-none rounded-lg shadow md:inline"
             href="/contact"
           >
             Contact

@@ -4,10 +4,8 @@ import { MainLayout, ServiceLayout } from "@/components";
 const CommercialInsurance = () => (
   <React.Fragment>
     <div className="space-y-3">
-      <h2 className="text-2xl font-bold md:text-3xl dark:text-white">
-        Commercial Insurance
-      </h2>
-      <p className="text-lg text-gray-600 dark:text-gray-200">
+      <h2 className="text-2xl font-bold md:text-3xl">Commercial Insurance</h2>
+      <p className="text-lg text-gray-600">
         Commercial insurance is essential for protecting your business from
         potential liabilities due to accidents, injuries, property damage, and
         unforeseen events. Choose a reliable agency like Lafayette Insurance
@@ -17,14 +15,14 @@ const CommercialInsurance = () => (
 
     <figure>
       <img
-        className="w-full object-cover"
+        className="w-full object-cover rounded-lg"
         src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
         alt="Image Description"
       />
     </figure>
     <div className="space-y-3">
-      <h2 className="text-2xl font-semibold dark:text-white">What They Do</h2>
-      <p className="text-lg text-gray-600 dark:text-gray-200">
+      <h2 className="text-2xl font-semibold">What They Do</h2>
+      <p className="text-lg text-gray-600">
         Independent contractor insurance helps protect independent contractors
         against liability claims and any injuries that may occur during
         construction or renovations. An Independent contractor is a person,
@@ -37,8 +35,8 @@ const CommercialInsurance = () => (
     </div>
 
     <div className="space-y-3">
-      <h3 className="text-2xl font-semibold dark:text-white">Definition</h3>
-      <p className="text-lg text-gray-600 dark:text-gray-200">
+      <h3 className="text-2xl font-semibold">Definition</h3>
+      <p className="text-lg text-gray-600 ">
         Independent contractor insurance according to Investopedia.com is any
         type of insurance that provides protection for the general liability,
         business operations, or business property of an independent contractor.
@@ -48,17 +46,17 @@ const CommercialInsurance = () => (
     </div>
 
     <div className="space-y-3">
-      <h3 className="text-2xl font-semibold dark:text-white">
+      <h3 className="text-2xl font-semibold">
         Why you need independent contractor insurance
       </h3>
-      <p className="text-lg text-gray-600 dark:text-gray-200">
+      <p className="text-lg text-gray-600">
         If you are an independent contractor, it is necessary for you to have
         independent contractor insurance. As an independent contractor, you can
         get sued and held liable for damages like any other small business
         owner. Below are reasons why you need independent contractor insurance:
         {/* bullet points */}
       </p>
-      <ul className="list-disc list-outside space-y-5 pl-5 text-lg text-gray-600 dark:text-gray-200">
+      <ul className="list-disc list-outside space-y-5 pl-5 text-lg text-gray-600">
         <li className="pl-2">
           Independent contractor insurance protects you and your business. As a
           business, you can be sued for damaging a client’s property or injuring

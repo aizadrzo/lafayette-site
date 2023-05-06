@@ -25,12 +25,12 @@ const Section = ({
         <div className="flex-1 sm:hidden lg:block">
           <img
             src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-            className="md:max-w-lg"
+            className="md:max-w-lg rounded-lg"
             alt="Image Alt"
           />
         </div>
         <div className="max-w-xl space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
-          <h3 className="text-indigo-600 font-semibold">{subtitle}</h3>
+          <h3 className="text-blue-600 font-semibold">{subtitle}</h3>
           <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
             {title}
           </p>
@@ -38,7 +38,7 @@ const Section = ({
           {link && (
             <Link
               href={href}
-              className="inline-flex gap-x-1 items-center text-indigo-600 hover:text-indigo-500 duration-150 font-medium"
+              className="inline-flex gap-x-1 items-center text-blue-600 hover:text-blue-500 duration-150 font-medium"
             >
               {linkName}
               <svg

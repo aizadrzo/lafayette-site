@@ -4,10 +4,8 @@ import { MainLayout, ServiceLayout } from "@/components";
 const PropertyInsurance = () => (
   <React.Fragment>
     <div className="space-y-3">
-      <h2 className="text-2xl font-bold md:text-3xl dark:text-white">
-        Property Insurance
-      </h2>
-      <p className="text-lg text-gray-600 dark:text-gray-200">
+      <h2 className="text-2xl font-bold md:text-3xl">Property Insurance</h2>
+      <p className="text-lg text-gray-600">
         Protect your investment with property insurance from Lafayette Insurance
         Agency. We offer a variety of options, including coverage for your home,
         condominium, rental property, and more. Get peace of mind knowing your
@@ -17,15 +15,15 @@ const PropertyInsurance = () => (
 
     <figure>
       <img
-        className="w-full object-cover"
+        className="w-full object-cover rounded-lg"
         src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
         alt="Image Description"
       />
     </figure>
 
     <div className="space-y-3">
-      <h2 className="text-2xl font-semibold dark:text-white">What They Do</h2>
-      <p className="text-lg text-gray-600 dark:text-gray-200">
+      <h2 className="text-2xl font-semibol">What They Do</h2>
+      <p className="text-lg text-gray-600">
         Homeowners insurance near me is any type of insurance that protects and
         covers a private residence. This includes property damage such as damage
         from weather, personal property such as furniture, clothing, appliances,
@@ -37,9 +35,9 @@ const PropertyInsurance = () => (
     </div>
 
     <div className="space-y-3">
-      <h3 className="text-2xl font-semibold dark:text-white">What is it?</h3>
+      <h3 className="text-2xl font-semibol">What is it?</h3>
 
-      <p className="text-lg text-gray-600 dark:text-gray-200">
+      <p className="text-lg text-gray-600">
         Homeowners insurance or home insurance is property insurance that
         provides coverage for a private residence. Any private residence is a
         single-family home, condo, townhome, mobile home, specialty or vacation
@@ -57,11 +55,11 @@ const PropertyInsurance = () => (
     </div>
 
     <div className="space-y-3">
-      <h3 className="text-2xl font-semibold dark:text-white">
+      <h3 className="text-2xl font-semibol">
         Why you need homeowners insurance near me?
       </h3>
 
-      <p className="text-lg text-gray-600 dark:text-gray-200">
+      <p className="text-lg text-gray-600">
         Your home is a major investment and you are going to want homeowners
         insurance in order to make sure that investment is protected but it is
         also much more than that. You not only want to protect something you

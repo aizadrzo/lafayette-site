@@ -29,7 +29,7 @@ const InsuranceServices = () => {
   return (
     <div className="py-14">
       <div className="max-w-xl space-y-3">
-        <h3 className="text-indigo-600 font-semibold">Products and Services</h3>
+        <h3 className="text-blue-600 font-semibold">Products and Services</h3>
         <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
           Insurance Services
         </p>
@@ -44,7 +44,7 @@ const InsuranceServices = () => {
         {insurance_service.map((item, idx) => (
           <div key={idx}>
             <img
-              className="object-cover w-full h-64 mb-6 lg:h-80 xl:h-96"
+              className="object-cover w-full h-64 mb-6 lg:h-80 xl:h-96 rounded-lg"
               src={item.image}
               alt=""
             />
@@ -54,7 +54,7 @@ const InsuranceServices = () => {
             <p className="text-gray-600 mb-2">{item.desc}</p>
             <Link
               href={item.link}
-              className="inline-flex gap-x-1 items-center text-indigo-600 hover:text-indigo-500 duration-150 font-medium"
+              className="inline-flex gap-x-1 items-center text-blue-600 hover:text-blue-500 duration-150 font-medium"
             >
               Learn more
               <svg

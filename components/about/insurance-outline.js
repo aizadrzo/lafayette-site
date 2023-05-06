@@ -88,9 +88,7 @@ const InsuranceOutline = () => {
     <section className="py-14">
       <div className="text-gray-600">
         <div className="max-w-xl space-y-3">
-          <h3 className="text-indigo-600 font-semibold">
-            Products and Services
-          </h3>
+          <h3 className="text-blue-600 font-semibold">Products and Services</h3>
           <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
             Insurance Services
           </p>
@@ -108,7 +106,7 @@ const InsuranceOutline = () => {
                 key={idx}
                 className={`feature-${idx + 1} space-y-3 py-8 lg:px-12 sm:py-0`}
               >
-                <div className="w-12 h-12 border text-indigo-600 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 border text-blue-600 rounded-full flex items-center justify-center">
                   {item.icon}
                 </div>
                 <h4 className="text-lg text-gray-800 font-semibold">
@@ -120,7 +118,7 @@ const InsuranceOutline = () => {
                     <li key={listItem} className="flex items-center gap-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
-                        className="h-5 w-5 text-indigo-600"
+                        className="h-5 w-5 text-blue-600"
                         viewBox="0 0 20 20"
                         fill="currentColor"
                       >
@@ -136,7 +134,7 @@ const InsuranceOutline = () => {
                 </ul>
                 <Link
                   href={item.link}
-                  className="inline-flex gap-x-1 items-center text-indigo-600 hover:text-indigo-500 duration-150 font-medium"
+                  className="inline-flex gap-x-1 items-center text-blue-600 hover:text-blue-500 duration-150 font-medium"
                 >
                   Learn more
                   <svg

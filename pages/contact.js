@@ -1,3 +1,6 @@
+import React, { useState } from "react";
+import classNames from "classnames";
+
 const Contact = () => {
   const contactMethods = [
     {
@@ -64,12 +67,42 @@ const Contact = () => {
     },
   ];
 
+  const [form_values, setFormValues] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleInputChange = (e) => {
+    e.persist();
+    setFormValues((values) => ({ ...values, [e.target.name]: e.target.value }));
+  };
+
+  const onSubmit = (e) => {
+    console.log(form_values);
+    e.preventDefault();
+  };
+
+  const submitBtnStyles = classNames(
+    "w-full",
+    "px-4",
+    "py-2",
+    "text-white",
+    "font-medium",
+    "rounded-lg",
+    "duration-150",
+    "hover:bg-blue-500",
+    "active:bg-blue-600",
+    "bg-blue-600"
+  );
+
   return (
     <div className="py-14">
       <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
         <div className="max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none">
           <div className="max-w-lg space-y-3">
-            <h3 className="text-indigo-600 font-semibold">Contact</h3>
+            <h3 className="text-blue-600 font-semibold">Contact</h3>
             <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
               Get Your Quote Today
             </p>
@@ -90,42 +123,53 @@ const Contact = () => {
               </ul>
             </div>
           </div>
+          {/* form */}
           <div className="flex-1 mt-12 sm:max-w-lg lg:max-w-md">
-            <form onSubmit={(e) => e.preventDefault()} className="space-y-5">
+            <form onSubmit={onSubmit} className="space-y-5">
               <div>
                 <label className="font-medium">Full name</label>
                 <input
+                  name="name"
                   type="text"
                   required
-                  className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                  className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-blue-600 shadow-sm rounded-lg"
+                  value={form_values.name}
+                  onChange={handleInputChange}
                 />
               </div>
               <div>
                 <label className="font-medium">Email</label>
                 <input
+                  name="email"
                   type="email"
                   required
-                  className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                  className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-blue-600 shadow-sm rounded-lg"
+                  value={form_values.email}
+                  onChange={handleInputChange}
                 />
               </div>
               <div>
                 <label className="font-medium">Phone Number</label>
                 <input
+                  name="phone"
                   type="phone"
                   required
-                  className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                  className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-blue-600 shadow-sm rounded-lg"
+                  value={form_values.phone}
+                  onChange={handleInputChange}
                 />
               </div>
               <div>
                 <label className="font-medium">Message</label>
                 <textarea
+                  name="message"
                   required
-                  className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg"
+                  className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-blue-600 shadow-sm rounded-lg"
+                  value={form_values.message}
+                  onChange={handleInputChange}
                 ></textarea>
               </div>
-              <button className="w-full px-4 py-2 text-white font-medium bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-600 rounded-lg duration-150">
-                Submit
-              </button>
+              <button className={submitBtnStyles}>Submit</button>
             </form>
           </div>
         </div>
