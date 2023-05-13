@@ -4,7 +4,9 @@ import { MainLayout, ServiceLayout } from "@/components";
 const PropertyInsurance = () => (
   <React.Fragment>
     <div className="space-y-3">
-      <h2 className="text-2xl font-bold md:text-3xl">Property Insurance</h2>
+      <h3 className="text-gray-800 text-2xl font-semibold md:text-3xl">
+        Property Insurance
+      </h3>
       <p className="text-lg text-gray-600">
         Protect your investment with property insurance from Lafayette Insurance
         Agency. We offer a variety of options, including coverage for your home,
@@ -22,7 +24,7 @@ const PropertyInsurance = () => (
     </figure>
 
     <div className="space-y-3">
-      <h2 className="text-2xl font-semibol">What They Do</h2>
+      <h3 className="text-gray-800 text-2xl font-semibold">What They Do</h3>
       <p className="text-lg text-gray-600">
         Homeowners insurance near me is any type of insurance that protects and
         covers a private residence. This includes property damage such as damage
@@ -35,7 +37,7 @@ const PropertyInsurance = () => (
     </div>
 
     <div className="space-y-3">
-      <h3 className="text-2xl font-semibol">What is it?</h3>
+      <h3 className="text-gray-800 text-2xl font-semibold">What is it?</h3>
 
       <p className="text-lg text-gray-600">
         Homeowners insurance or home insurance is property insurance that
@@ -55,7 +57,7 @@ const PropertyInsurance = () => (
     </div>
 
     <div className="space-y-3">
-      <h3 className="text-2xl font-semibol">
+      <h3 className="text-gray-800 text-2xl font-semibold">
         Why you need homeowners insurance near me?
       </h3>
 

@@ -8,9 +8,9 @@ const About = () => {
   return (
     <div className="py-14">
       <div className="container mx-auto max-w-screen-xl px-4 md:px-8">
-        <div className="max-w-lg space-y-3">
+        <div className="max-w space-y-3">
           <h3 className="text-blue-600 font-semibold">About Us</h3>
-          <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+          <p className="text-gray-800 text-3xl font-bold sm:text-4xl">
             Our Company Story and Values
           </p>
         </div>

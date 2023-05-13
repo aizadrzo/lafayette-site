@@ -43,7 +43,7 @@ const Faq = () => {
         <div className="space-y-5">
           <div className="max-w space-y-3">
             <h3 className="text-blue-600 font-semibold">Privacy Policy</h3>
-            <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+            <p className="text-gray-800 text-3xl font-bold sm:text-4xl">
               Protecting Your Data
             </p>
           </div>

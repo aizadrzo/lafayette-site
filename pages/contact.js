@@ -103,7 +103,7 @@ const Contact = () => {
         <div className="max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none">
           <div className="max-w-lg space-y-3">
             <h3 className="text-blue-600 font-semibold">Contact</h3>
-            <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+            <p className="text-gray-800 text-3xl font-bold sm:text-4xl">
               Get Your Quote Today
             </p>
             <p>

@@ -4,7 +4,9 @@ import { MainLayout, ServiceLayout } from "@/components";
 const CommercialInsurance = () => (
   <React.Fragment>
     <div className="space-y-3">
-      <h2 className="text-2xl font-bold md:text-3xl">Commercial Insurance</h2>
+      <h3 className="text-gray-800 text-2xl font-semibold md:text-3xl">
+        Commercial Insurance
+      </h3>
       <p className="text-lg text-gray-600">
         Commercial insurance is essential for protecting your business from
         potential liabilities due to accidents, injuries, property damage, and
@@ -21,7 +23,7 @@ const CommercialInsurance = () => (
       />
     </figure>
     <div className="space-y-3">
-      <h2 className="text-2xl font-semibold">What They Do</h2>
+      <h3 className="text-gray-800 text-2xl font-semibold">What They Do</h3>
       <p className="text-lg text-gray-600">
         Independent contractor insurance helps protect independent contractors
         against liability claims and any injuries that may occur during
@@ -35,7 +37,7 @@ const CommercialInsurance = () => (
     </div>
 
     <div className="space-y-3">
-      <h3 className="text-2xl font-semibold">Definition</h3>
+      <h3 className="text-gray-800 text-2xl font-semibold">Definition</h3>
       <p className="text-lg text-gray-600 ">
         Independent contractor insurance according to Investopedia.com is any
         type of insurance that provides protection for the general liability,
@@ -46,7 +48,7 @@ const CommercialInsurance = () => (
     </div>
 
     <div className="space-y-3">
-      <h3 className="text-2xl font-semibold">
+      <h3 className="text-gray-800 text-2xl font-semibold">
         Why you need independent contractor insurance
       </h3>
       <p className="text-lg text-gray-600">

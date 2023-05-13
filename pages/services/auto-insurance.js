@@ -4,7 +4,9 @@ import { MainLayout, ServiceLayout } from "@/components";
 const AutoInsurance = () => (
   <React.Fragment>
     <div className="space-y-3">
-      <h2 className="text-2xl font-bold md:text-3xl">Auto Insurance</h2>
+      <h2 className="text-gray-800 text-2xl font-semibold md:text-3xl">
+        Auto Insurance
+      </h2>
       <p className="text-lg text-gray-600">
         Lafayette Insurance Agency offers auto insurance in Lafayette County.
         With years of experience, we are dedicated to providing our customers
@@ -21,7 +23,7 @@ const AutoInsurance = () => (
     </figure>
 
     <div className="space-y-3">
-      <h2 className="text-2xl font-semibold">What They Do</h2>
+      <h3 className="text-gray-800 text-2xl font-semibold">What They Do</h3>
 
       <p className="text-lg text-gray-600 ">
         Oxford Auto Insurance is one of the most important types of insurance to
@@ -34,7 +36,7 @@ const AutoInsurance = () => (
     </div>
 
     <div className="space-y-3">
-      <h3 className="text-2xl font-semibold">What is it?</h3>
+      <h3 className="text-gray-800 text-2xl font-semibold">What is it?</h3>
 
       <p className="text-lg text-gray-600">
         Oxford auto insurance is any type of insurance or protection on cars,
@@ -47,7 +49,7 @@ const AutoInsurance = () => (
     </div>
 
     <div className="space-y-3">
-      <h3 className="text-2xl font-semibold">
+      <h3 className="text-gray-800 text-2xl font-semibold">
         Why you need independent contractor insurance
       </h3>
       <p className="text-lg text-gray-600">

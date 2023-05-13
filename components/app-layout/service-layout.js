@@ -26,7 +26,7 @@ const ServiceLayout = ({ children }) => {
       <div className="container max-w-screen-xl mx-auto pt-4 px-4 md:px-8">
         <div className="max-w-lg space-y-3">
           <h3 className="text-blue-600 font-semibold">Products & Services</h3>
-          <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
+          <p className="text-gray-800 text-3xl font-bold sm:text-4xl">
             Insurance Services
           </p>
         </div>
@@ -64,7 +64,7 @@ const ServiceLayout = ({ children }) => {
                     />
                   </figure>
                   <div className="space-y-3">
-                    <h3 className="text-2xl font-semibold">
+                    <h3 className="text-2xl font-semibold text-gray-800">
                       Lafayette Insurance Experience
                     </h3>
 
