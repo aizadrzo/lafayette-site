@@ -1,26 +1,45 @@
 /* eslint-disable react/no-unescaped-entities */
-import Link from "next/link";
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import Auto from "../../public/auto.jpg";
+import Commercial from "../../public/commercial.jpg";
+import Property from "../../public/property.jpg";
 
 const InsuranceServices = () => {
   const insurance_service = [
     {
-      image:
-        "https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500",
+      image: (
+        <Image
+          className="object-cover w-full h-64 mb-6 lg:h-80 xl:h-96 rounded-lg"
+          src={Auto}
+          alt="auto"
+        />
+      ),
       title: "Auto Insurance",
       desc: "Lafayette Insurance Agency offers auto insurance in Lafayette County. With years of experience, we are dedicated to providing our customers with the best possible coverage. Our team of experts is always available to help you make the right choice.",
       link: "/services/auto-insurance",
     },
     {
-      image:
-        "https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500",
+      image: (
+        <Image
+          className="object-cover w-full h-64 mb-6 lg:h-80 xl:h-96 rounded-lg"
+          src={Commercial}
+          alt="Commercial"
+        />
+      ),
       title: "Commercial Insurance",
       desc: "Commercial insurance is essential for protecting your business from potential liabilities due to accidents, injuries, property damage, and unforeseen events. Choose a reliable agency like Lafayette Insurance Agency for your commercial insurance needs.",
       link: "/services/commercial-insurance",
     },
     {
-      image:
-        "https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500",
+      image: (
+        <Image
+          className="object-cover w-full h-64 mb-6 lg:h-80 xl:h-96 rounded-lg"
+          src={Property}
+          alt="Property"
+        />
+      ),
       title: "Property Insurance",
       desc: "Protect your investment with property insurance from Lafayette Insurance Agency. We offer a variety of options, including coverage for your home, condominium, rental property, and more. Get peace of mind knowing your property is protected.",
       link: "/services/property-insurance",
@@ -43,11 +62,7 @@ const InsuranceServices = () => {
       <div className="grid gap-6 row-gap-5 lg:grid-cols-3 mt-12">
         {insurance_service.map((item, idx) => (
           <div key={idx}>
-            <img
-              className="object-cover w-full h-64 mb-6 lg:h-80 xl:h-96 rounded-lg"
-              src={item.image}
-              alt=""
-            />
+            {item.image}
             <h5 className="mb-2 text-xl font-semibold text-gray-800 leading-none sm:text-2xl">
               {item.title}
             </h5>

@@ -1,5 +1,7 @@
 import React from "react";
 import { MainLayout, ServiceLayout } from "@/components";
+import Image from "next/image";
+import Commercial from "../../public/commercial.jpg";
 
 const CommercialInsurance = () => (
   <React.Fragment>
@@ -16,10 +18,10 @@ const CommercialInsurance = () => (
     </div>
 
     <figure>
-      <img
+      <Image
+        src={Commercial}
         className="w-full object-cover rounded-lg"
-        src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-        alt="Image Description"
+        alt="commercial"
       />
     </figure>
     <div className="space-y-3">

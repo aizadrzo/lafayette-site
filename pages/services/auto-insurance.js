@@ -1,5 +1,7 @@
 import React from "react";
 import { MainLayout, ServiceLayout } from "@/components";
+import Image from "next/image";
+import Auto from "../../public/auto.jpg";
 
 const AutoInsurance = () => (
   <React.Fragment>
@@ -15,11 +17,7 @@ const AutoInsurance = () => (
       </p>
     </div>
     <figure>
-      <img
-        className="w-full object-cover rounded-lg"
-        src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-        alt="Image Description"
-      />
+      <Image className="w-full object-cover rounded-lg" src={Auto} alt="auto" />
     </figure>
 
     <div className="space-y-3">

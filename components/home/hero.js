@@ -1,17 +1,23 @@
 import Link from "next/link";
+import Image from "next/image";
+import familyImage from "/public/family.jpg";
 
 const Hero = () => {
   return (
-    <section
-      className="relative bg-cover bg-center bg-no-repeat"
-      style={{
-        backgroundImage:
-          "url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)",
-      }}
-    >
+    <section className="relative">
+      <div className="absolute inset-0">
+        <Image
+          src={familyImage}
+          alt="Family"
+          layout="fill"
+          objectFit="cover"
+          quality={50}
+        />
+      </div>
+
       <div className="absolute inset-0 bg-white/75 sm:bg-transparent sm:from-white/95 sm:to-white/25 sm:bg-gradient-to-r"></div>
 
-      <div className="container mx-auto max-w-screen-xl relative flex flex-col justify-center p-6 sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+      <div className="container mx-auto max-w-screen-xl relative flex flex-col justify-center p-6 sm:py-12 lg:py-40 lg:flex-row lg:justify-between">
         <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
           <h1 className="text-3xl font-bold leading-none sm:text-5xl">
             Your Comprehensive Insurance Solution in{" "}
