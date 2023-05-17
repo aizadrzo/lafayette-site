@@ -6,14 +6,14 @@ import Image from "next/image";
 const InsuranceOutline = () => {
   const features = [
     {
-      icon: <Image src={Car} alt="car" width={42} height={42} />,
+      icon: <Image src={Car} alt="car" width={50} height={50} />,
       title: "Auto Insurance",
       desc: "Elements required for your coverage:",
       list: ["VIN number", "Name", "Date of birth", "Identification (ID)"],
       link: "/services/auto-insurance",
     },
     {
-      icon: <Image src={Shop} alt="shop" width={42} height={42} />,
+      icon: <Image src={Shop} alt="shop" width={50} height={50} />,
       title: "Commercial Insurance",
       desc: "Protect Your Business with Lafayette Insurance Agency",
       list: [
@@ -27,7 +27,7 @@ const InsuranceOutline = () => {
       link: "/services/commercial-insurance",
     },
     {
-      icon: <Image src={Home} alt="home" width={42} height={42} />,
+      icon: <Image src={Home} alt="home" width={50} height={50} />,
       title: "Property Insurance",
       desc: "Complete Property Coverage",
       list: [

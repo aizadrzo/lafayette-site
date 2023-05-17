@@ -55,7 +55,6 @@ const ServiceLayout = ({ children }) => {
               <div className="pt-12">
                 <div className="space-y-5 md:space-y-8">
                   {children}
-                  {/* Common Section */}
                   <figure>
                     <img
                       className="w-full object-cover rounded-lg"

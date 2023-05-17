@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 const CTA = () => (
-  <section className="px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+  <section className="py-12 mx-auto">
     <div className="p-8 rounded shadow-xl sm:p-16 bg-blue-600">
       <div className="flex flex-col lg:flex-row">
         <div className="mb-6 lg:mb-0 lg:w-1/2 lg:pr-5">
@@ -13,7 +13,7 @@ const CTA = () => (
           </h2>
         </div>
         <div className="lg:w-1/2">
-          <p className="mb-4 text-base text-blue-50">
+          <p className="mb-6 sm:mb-4text-base text-blue-50">
             Lafayette Insurance Agency is your one-stop-shop for all your
             insurance needs. We put customers first and provide easy
             accessibility for all. Contact us today for all your insurance

@@ -1,3 +1,5 @@
+import { CTA } from "@/components";
+import Link from "next/link";
 import React from "react";
 
 const Faq = () => {
@@ -33,8 +35,19 @@ const Faq = () => {
     },
     {
       title: "Contact Us",
-      description:
-        "If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at 662-801-7758.",
+      contact_description: (
+        <p>
+          If you have any questions or concerns about this Privacy Policy or our
+          data practices, please contact us at{" "}
+          <Link
+            className=" text-blue-600 underline hover:text-blue-500 duration-150"
+            href="/"
+          >
+            662-801-7758
+          </Link>
+          .
+        </p>
+      ),
     },
   ];
   return (
@@ -54,7 +67,9 @@ const Faq = () => {
               </h2>
 
               <p className="text-lg ">
-                {item.description}
+                {item?.description
+                  ? item.description
+                  : item.contact_description}
                 {item?.continuation && (
                   <>
                     <br />
@@ -64,6 +79,7 @@ const Faq = () => {
               </p>
             </div>
           ))}
+          <CTA />
         </div>
       </div>
     </div>

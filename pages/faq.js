@@ -1,3 +1,4 @@
+import { CTA } from "@/components";
 import React from "react";
 
 const Faq = () => {
@@ -42,6 +43,7 @@ const Faq = () => {
               <p className="text-lg ">{item.a}</p>
             </div>
           ))}
+          <CTA />
         </div>
       </div>
     </div>
