@@ -1,7 +1,7 @@
 import React from "react";
 import { MainLayout, ServiceLayout } from "@/components";
 import Image from "next/image";
-import Auto from "../../public/auto.jpg";
+import Auto from "@/public/car-insurance.png";
 
 const AutoInsurance = () => (
   <React.Fragment>

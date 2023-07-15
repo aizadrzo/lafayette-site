@@ -13,7 +13,7 @@ const CTA = () => (
           </h2>
         </div>
         <div className="lg:w-1/2">
-          <p className="mb-6 sm:mb-4text-base text-blue-50">
+          <p className="mb-6 sm:mb-4text-base text-white">
             Lafayette Insurance Agency is your one-stop-shop for all your
             insurance needs. We put customers first and provide easy
             accessibility for all. Contact us today for all your insurance

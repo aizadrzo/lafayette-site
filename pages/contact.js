@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import classNames from "classnames";
+import Head from "next/head";
 
 const Contact = () => {
   const contactMethods = [
@@ -92,13 +93,16 @@ const Contact = () => {
     "font-medium",
     "rounded-lg",
     "duration-150",
-    "hover:bg-blue-500",
+    "hover:bg-blue-600-500",
     "active:bg-blue-600",
     "bg-blue-600"
   );
 
   return (
     <div className="py-14">
+      <Head>
+        <title>Lafayette | Contact</title>
+      </Head>
       <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
         <div className="max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none">
           <div className="max-w-lg space-y-3">

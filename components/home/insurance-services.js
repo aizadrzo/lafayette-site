@@ -2,9 +2,9 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Auto from "../../public/auto.jpg";
+import Car from '@/public/car-insurance.png';
+import Property from "@/public/property-insurance.jpeg"
 import Commercial from "../../public/commercial.jpg";
-import Property from "../../public/property.jpg";
 
 const InsuranceServices = () => {
   const insurance_service = [
@@ -12,7 +12,7 @@ const InsuranceServices = () => {
       image: (
         <Image
           className="object-cover w-full h-64 mb-6 lg:h-80 xl:h-96 rounded-lg"
-          src={Auto}
+          src={Car}
           alt="auto"
         />
       ),
@@ -69,7 +69,7 @@ const InsuranceServices = () => {
             <p className="text-gray-600 mb-2">{item.desc}</p>
             <Link
               href={item.link}
-              className="inline-flex gap-x-1 items-center text-blue-600 hover:text-blue-500 duration-150 font-medium"
+              className="inline-flex gap-x-1 items-center text-blue-600 hover:text-blue-600-500 duration-150 font-medium"
             >
               Learn more
               <svg

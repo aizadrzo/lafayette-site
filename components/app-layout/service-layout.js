@@ -1,7 +1,10 @@
 import React from "react";
 import Link from "next/link";
+import Head from "next/head";
+import Image from "next/image";
 import { useRouter } from "next/router";
 import { CTA } from "../home";
+import Insurance from '@/public/insurance.jpeg';
 
 const ServiceLayout = ({ children }) => {
   const router = useRouter();
@@ -23,6 +26,9 @@ const ServiceLayout = ({ children }) => {
 
   return (
     <div className="py-10">
+      <Head>
+        <title>Lafayette | Services</title>
+      </Head>
       <div className="container max-w-screen-xl mx-auto pt-4 px-4 md:px-8">
         <div className="max-w-lg space-y-3">
           <h3 className="text-blue-600 font-semibold">Products & Services</h3>
@@ -36,11 +42,10 @@ const ServiceLayout = ({ children }) => {
               {navigation.map((item, idx) => (
                 <li
                   key={idx}
-                  className={`py-2 border-b-2 truncate ${
-                    router.pathname === item.link
-                      ? "border-blue-600 text-blue-600"
-                      : "border-white text-gray-500"
-                  }`}
+                  className={`py-2 border-b-2 truncate ${router.pathname === item.link
+                    ? "border-blue-600 text-blue-600"
+                    : "border-white text-gray-500"
+                    }`}
                 >
                   <Link
                     href={item.link}
@@ -56,9 +61,9 @@ const ServiceLayout = ({ children }) => {
                 <div className="space-y-5 md:space-y-8">
                   {children}
                   <figure>
-                    <img
+                    <Image
                       className="w-full object-cover rounded-lg"
-                      src="https://images.unsplash.com/photo-1670272498380-eb330b61f3cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                      src={Insurance}
                       alt="Image Description"
                     />
                   </figure>

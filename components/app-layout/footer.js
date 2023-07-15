@@ -1,5 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from "next/link";
+import Logo from "@/public/logo.png";
+import Image from "next/image";
+
 
 const Footer = () => {
   return (
@@ -7,9 +10,7 @@ const Footer = () => {
       <div className="max-w-[85rem] w-full mx-auto px-4  py-10 sm:px-6 lg:px-8 lg:pt-20">
         <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
           <div className="col-span-full lg:col-span-3 space-y-3">
-            <h3 className="flex-none text-xl font-semibold text-gray-800">
-              Brand
-            </h3>
+            <Image src={Logo} alt="logo" width={100} height='auto' className="flex-none" />
             <p className="inline-flex gap-x-2 text-gray-600">
               Lafayette Insurance Agency, Inc. is the trusted independent
               insurance agency near me that you can depend on all your insurance
@@ -123,7 +124,7 @@ const Footer = () => {
           <div>
             <Link
               className="inline-flex justify-center items-center gap-x-3.5 w-10 h-10 text-center text-gray-600 hover:text-gray-400 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-gray-900 transition"
-              href="#"
+              href="https://www.facebook.com/insurelafayette/"
             >
               <svg
                 className="w-4 h-4"

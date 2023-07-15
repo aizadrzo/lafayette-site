@@ -1,7 +1,7 @@
 import React from "react";
 import { MainLayout, ServiceLayout } from "@/components";
-import Property from "../../public/property.jpg";
 import Image from "next/image";
+import Property from '@/public/property-insurance.jpeg';
 
 const PropertyInsurance = () => (
   <React.Fragment>

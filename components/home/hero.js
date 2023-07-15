@@ -30,7 +30,7 @@ const Hero = () => {
           <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
             <Link
               href="/contact"
-              className="px-8 py-3 text-lg font-semibold rounded bg-blue-600 hover:bg-blue-500 duration-150 text-white"
+              className="px-8 py-3 text-lg font-semibold rounded bg-blue-600 hover:bg-blue-600-500 duration-150 text-white"
             >
               Get Your Quote Today
             </Link>

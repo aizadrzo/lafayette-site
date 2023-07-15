@@ -91,7 +91,7 @@ const InsuranceOutline = () => {
                 </ul>
                 <Link
                   href={item.link}
-                  className="inline-flex gap-x-1 items-center text-blue-600 hover:text-blue-500 duration-150 font-medium"
+                  className="inline-flex gap-x-1 items-center text-blue-600 hover:text-blue-600-500 duration-150 font-medium"
                 >
                   Learn more
                   <svg

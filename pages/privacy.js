@@ -40,7 +40,7 @@ const Faq = () => {
           If you have any questions or concerns about this Privacy Policy or our
           data practices, please contact us at{" "}
           <Link
-            className=" text-blue-600 underline hover:text-blue-500 duration-150"
+            className=" text-blue-600 underline hover:text-blue-600-500 duration-150"
             href="/"
           >
             662-801-7758

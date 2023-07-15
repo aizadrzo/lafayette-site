@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import classNames from "classnames";
 
 const Section = ({
@@ -10,6 +11,7 @@ const Section = ({
   link = false,
   href = null,
   linkName = null,
+  img
 }) => {
   const flexDirection = classNames(
     "items-center",
@@ -23,8 +25,8 @@ const Section = ({
     <section className="py-12">
       <div className={flexDirection}>
         <div className="flex-1 sm:hidden lg:block">
-          <img
-            src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+          <Image
+            src={img}
             className="md:max-w-lg rounded-lg"
             alt="Image Alt"
           />
@@ -38,7 +40,7 @@ const Section = ({
           {link && (
             <Link
               href={href}
-              className="inline-flex gap-x-1 items-center text-blue-600 hover:text-blue-500 duration-150 font-medium"
+              className="inline-flex gap-x-1 items-center text-blue-600 hover:text-blue-600-500 duration-150 font-medium"
             >
               {linkName}
               <svg
