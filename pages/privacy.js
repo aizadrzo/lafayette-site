@@ -14,7 +14,7 @@ const Faq = () => {
     {
       title: "Information Sharing",
       description:
-        "We do not sell, rent, or share your personal information with third parties for their marketing purposes. We may share your information with our affiliates and service providers to perform certain functions on our behalf, such as processing payments, underwriting policies, and managing claims.",
+        "We do not sell, rent, or share your personal information with third parties for their marketing purposes. We may share your information with our affiliates and service providers to perform certain functions on your behalf, such as processing payments, underwriting policies, and managing claims.",
       continuation:
         "We may also share your information in response to a subpoena, court order, or other legal process, or to protect our rights or property, or the safety of our employees, customers, or others.",
     },

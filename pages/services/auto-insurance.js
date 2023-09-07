@@ -24,12 +24,12 @@ const AutoInsurance = () => (
       <h3 className="text-gray-800 text-2xl font-semibold">What They Do</h3>
 
       <p className="text-lg text-gray-600 ">
-        Oxford Auto Insurance is one of the most important types of insurance to
+        Auto Insurance is one of the most important types of insurance to
         have. Nearly 85% of the US population is a licensed driver making
         driving in the United States the most popular mean of transportation.
-        Oxford car insurance at Lafayette Insurance protects you if you are in
-        an accident. Oxford car insurance will help you pay for damages to your
-        car, yourself, others, and property that was harmed in the accident.
+        Car insurance at Lafayette Insurance protects you if you are in
+        an accident and will help with the expenses for damages to your
+        car, yourself, others, and property that was harmed in an accident.
       </p>
     </div>
 

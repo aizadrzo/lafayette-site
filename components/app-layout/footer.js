@@ -13,7 +13,7 @@ const Footer = () => {
             <Image src={Logo} alt="logo" width={100} height='auto' className="flex-none" />
             <p className="inline-flex gap-x-2 text-gray-600">
               Lafayette Insurance Agency, Inc. is the trusted independent
-              insurance agency near me that you can depend on all your insurance
+              insurance agency near you that you can depend on all your insurance
               coverage needs. As Oxford Mississippi’s most complete
               comprehensive insurance agency, we offer all types of insurance
               coverage.

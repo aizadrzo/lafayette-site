@@ -28,11 +28,11 @@ const PropertyInsurance = () => (
     <div className="space-y-3">
       <h3 className="text-gray-800 text-2xl font-semibold">What They Do</h3>
       <p className="text-lg text-gray-600">
-        Homeowners insurance near me is any type of insurance that protects and
+        Homeowners insurance is any type of insurance that protects and
         covers a private residence. This includes property damage such as damage
         from weather, personal property such as furniture, clothing, appliances,
         and jewelry such as engagement rings, wedding bands, and diamond
-        bracelets. Homeowners insurance near me may also include theft, personal
+        bracelets. Homeowners insurance may also include theft, personal
         liability, medical bills for those who get injured while on your
         property, and any additional expenses.
       </p>
@@ -45,14 +45,14 @@ const PropertyInsurance = () => (
         Homeowners insurance or home insurance is property insurance that
         provides coverage for a private residence. Any private residence is a
         single-family home, condo, townhome, mobile home, specialty or vacation
-        home, and vacant home. Homeowners insurance near me typically covers
+        home, and vacant home. Homeowners insurance typically covers
         losses and damages to your home residence that can include furnishings
         or other assets in and around your home. You can also have the option to
         have liability coverage for certain accidents that may happen in your
         home or property. Almost all mortgage lenders require a homeowners
         insurance policy making home insurance necessary to have if you are
-        looking to buy or rent a private residence. Most states also require
-        homeowners insurance near me so it is important to find out what is
+        looking to buy or rent a private residence. Most states require
+        homeowners insurance, so it is important to find out what is
         required in your state before committing to a homeowners insurance
         policy.
       </p>
@@ -60,7 +60,7 @@ const PropertyInsurance = () => (
 
     <div className="space-y-3">
       <h3 className="text-gray-800 text-2xl font-semibold">
-        Why you need homeowners insurance near me?
+        Why you need homeowners insurance?
       </h3>
 
       <p className="text-lg text-gray-600">
@@ -69,7 +69,7 @@ const PropertyInsurance = () => (
         also much more than that. You not only want to protect something you
         spent a lot of hard-earned money on, but you also want to protect the
         people and assets inside your home and the way to do that is to purchase
-        homeowners insurance to be there if something unforeseen happens to the
+        homeowners insurance if something unforeseen happens to the
         home and what is inside it in the process. It’s not just natural
         disasters either; you also need homeowners insurance if a visitor gets
         injured or a thief comes while you are away or even if you simply lose

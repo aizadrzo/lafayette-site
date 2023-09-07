@@ -36,9 +36,8 @@ const About = () => {
               Insurance is a crucial investment for anyone, regardless of where
               they live. In Oxford, MS, homeowners, contractors, and car owners
               all recognize the importance of having reliable insurance
-              coverage. That's why Oxford MS Insurance is highly sought after
-              for the best policies in the area. At Lafayette Insurance, we've
-              been serving the North Mississippi region for over 15 years, and
+              coverage. Here at Lafayette Insurance, we've
+              been serving the North Mississippi region and
               we understand what our clients are looking for when it comes to
               Oxford Insurance.
             </p>

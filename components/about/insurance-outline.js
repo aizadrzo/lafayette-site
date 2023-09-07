@@ -33,7 +33,6 @@ const InsuranceOutline = () => {
       list: [
         "Homeowner needs",
         "Tenants",
-        "Floods",
         "Owners",
         "Condominiums",
         "Earthquakes",
@@ -52,7 +51,7 @@ const InsuranceOutline = () => {
           <p>
             We prioritize building personalized client relationships and
             delivering quality coverage at a low premium. Explore our range of
-            insurance options, including Oxford auto, property, and commercial
+            insurance options, including auto, property, and commercial
             insurance.
           </p>
         </div>
