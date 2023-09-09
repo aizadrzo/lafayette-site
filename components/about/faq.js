@@ -6,11 +6,11 @@ const FAQ = () => {
     },
     {
       q: "What do they do?",
-      a: "Insurance is highly sought after in Oxford, MS. To find some of the best insurance policies here in Oxford, Mississippi, choose Lafayette Insurance Agency. We are the independent agency you can trust. At Lafayette insurance, we are in the North Mississippi area and understand what our clients are looking for in Oxford.",
+      a: "Insurance is highly sought after in Oxford, MS. To find some of the best insurance policies here in Oxford, Mississippi, choose Lafayette Insurance Agency. We are the independent agency you can trust. Lafayette Insurance Agency, has a keen understanding of our clients' needs in the Oxford area.",
     },
     {
       q: "Why you need insurance in Oxford MS.",
-      a: "If you are a community member of Oxford it is necessary for you to be protected whether it be a car, independent contractor, or home insurance. Lafayette Insurance Agency has a lot of policies to offer for unique situations and to meet needs for each and every client. Even in this small town, insurance is important to have so you can stay protected against theft and damage.",
+      a: "If you are a community member of Oxford it is necessary for you to be protected whether it be a car, independent contractor, or home insurance. Lafayette Insurance Agency has a variety policies to offer for unique situations and to meet needs for each and every client. Even in this small town, insurance is important to have so you can stay protected against theft and damage.",
     },
     {
       q: "Why an Indpendent Agent?",
@@ -18,7 +18,7 @@ const FAQ = () => {
     },
     {
       q: "Why Lafayette Insurance Agency?",
-      a: "We are a one-stop shop for auto, home, property, health, and casualty insurance. We are here for individual home, auto, and business owners where they can shop for all their insurance needs. We are locally owned and easily accessible to all our customers. At Lafayette Insurance Agency, we put our customers' needs first. For any other insurance questions, please give Lafayette Insurance a call today!",
+      a: "We are a one-stop shop for property and casualty insurance. We are here for individual home, auto, and business owners where they can shop for all their insurance needs. We are locally owned and easily accessible to all our customers. At Lafayette Insurance Agency, we put our customers' needs first. For any other insurance questions, please give Lafayette Insurance a call today!",
     },
   ];
   return (

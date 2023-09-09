@@ -36,21 +36,16 @@ const About = () => {
               Insurance is a crucial investment for anyone, regardless of where
               they live. In Oxford, MS, homeowners, contractors, and car owners
               all recognize the importance of having reliable insurance
-              coverage. Here at Lafayette Insurance, we've
-              been serving the North Mississippi region and
-              we understand what our clients are looking for when it comes to
-              Oxford Insurance.
+              coverage. Here at Lafayette Insurance, we've proudly served the North Mississippi region, gaining a deep understanding of our clients' insurance needs.
             </p>
           </div>
         </div>
         {/* meet the agent */}
         <Section title={"Ramesh Retnam"} subtitle={"Meet the Agent"} ltr={true} img={Profile}>
-          Meet Ramesh Retnam, founder and president of the Property and Casualty
-          Division at Lafayette Insurance Agency. Known for his boundless energy
-          and servant-hearted nature, Ramesh has achieved great success in both
+          Meet Ramesh Retnam, founder and president at Lafayette Insurance Agency. Known for his boundless energy and servant-hearted nature, Ramesh has achieved great success in both
           his personal and professional life. As a senior partner, he brings his
-          expertise and enthusiasm to the agency, leading the property and
-          casualty section with excellence.
+          expertise and enthusiasm to the agency, leading in property and
+          casualty insurance with excellence.
         </Section>
         {/* approach */}
         <Section title={"Lafayette Insurance Agency"} subtitle={"Our Approach"} img={Office}>

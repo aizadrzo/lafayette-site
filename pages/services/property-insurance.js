@@ -60,7 +60,7 @@ const PropertyInsurance = () => (
 
     <div className="space-y-3">
       <h3 className="text-gray-800 text-2xl font-semibold">
-        Why you need homeowners insurance?
+        Why you need Homeowners Insurance?
       </h3>
 
       <p className="text-lg text-gray-600">

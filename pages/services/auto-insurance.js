@@ -37,22 +37,21 @@ const AutoInsurance = () => (
       <h3 className="text-gray-800 text-2xl font-semibold">What is it?</h3>
 
       <p className="text-lg text-gray-600">
-        Oxford auto insurance is any type of insurance or protection on cars,
-        trucks, motorcycles and, any other road vehicles. Oxford car insurance
+        Auto insurance is any type of insurance or protection on cars,
+        trucks, motorcycles and, any other road vehicles. Car insurance
         helps to provide financial protection against physical damage to a car
-        or bodily injury from an accident. Oxford car insurance also helps to
+        or bodily injury from an accident. Car insurance also helps to
         protect people from liability that could come from traffic collisions.
-        Oxford car insurance is a contract between you and Lafayette Insurance.
       </p>
     </div>
 
     <div className="space-y-3">
       <h3 className="text-gray-800 text-2xl font-semibold">
-        Why you need independent contractor insurance
+        Why you need Auto Insurance?
       </h3>
       <p className="text-lg text-gray-600">
-        It is necessary for you to have Oxford Auto insurance for many reasons.
-        Below are just a few of the main reasons why you need Oxford car
+        It is necessary for you to have Auto insurance for many reasons.
+        Below are just a few of the main reasons why you need car
         insurance:
       </p>
       {/* bullet points */}
@@ -63,7 +62,7 @@ const AutoInsurance = () => (
           that state are required to have.
         </li>
         <li className="pl-2">
-          Oxford car insurance will help pay for losses like the other party’s
+          Car insurance will help pay for losses like the other party’s
           medical bills, damage to their vehicle, or other property that was
           damaged from the accident. If you are found at fault in a car accident
           and do not have car insurance, you will have to pay out of pocket and
@@ -73,14 +72,14 @@ const AutoInsurance = () => (
         <li className="pl-2">
           If you are leasing a vehicle, it is likely your lender will require
           you to have some sort of collision coverage or comprehensive coverage.
-          This Oxford car insurance will help protect you and your lender if an
+          Car insurance will help protect you and your lender if an
           accident occurs.
         </li>
         <li className="pl-2">
-          Oxford car insurance not only helps protect you but also your
+          Car insurance not only helps protect you but also your
           passengers. Medical payments coverage will help pay for your medical
-          bills but also any passenger in your vehicle that got injured from the
-          accident. This oxford car insurance coverage can help pay for hospital
+          bills but also any passenger in your vehicle that is injured from the
+          accident. Car insurance coverage can help pay for hospital
           visits, doctor bills, and surgery.
         </li>
       </ul>

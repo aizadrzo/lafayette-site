@@ -73,13 +73,13 @@ const ServiceLayout = ({ children }) => {
                     </h3>
 
                     <p className="text-lg text-gray-600">
-                      At Lafayette Insurance we work with you in order to figure
+                      At Lafayette Insurance Agency we work with you in order to figure
                       out the best homeowners insurance policy for you and your
-                      family. Lafayette Insurance has been a key provider in
-                      homeowners insurance in the oxford area for some time now
+                      family. Lafayette Insurance Agency has been a key provider in
+                      homeowners insurance in the Oxford area for some time now
                       and we only recommend policies that make sense for you
-                      based on your own opinion and depending on your situation.
-                      Lafayette Insurance’s main concern is that the homeowner’s
+                      based on your own needs and depending on your situation.
+                      Lafayette Insurance Agency main concern is that the homeowner’s
                       insurance includes only what is necessary and won’t try to
                       trick you into a higher price, unlike the bigger insurance
                       companies. We focus on everything from a tornado to a

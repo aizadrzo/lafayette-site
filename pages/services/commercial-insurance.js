@@ -51,7 +51,7 @@ const CommercialInsurance = () => (
 
     <div className="space-y-3">
       <h3 className="text-gray-800 text-2xl font-semibold">
-        Why you need independent contractor insurance
+        Why you need Commercial Insurance?
       </h3>
       <p className="text-lg text-gray-600">
         If you are an independent contractor, it is necessary for you to have
@@ -63,13 +63,11 @@ const CommercialInsurance = () => (
       <ul className="list-disc list-outside space-y-5 pl-5 text-lg text-gray-600">
         <li className="pl-2">
           Independent contractor insurance protects you and your business. As a
-          business, you can be sued for damaging a client’s property or injuring
-          employees. Independent contractor insurance helps cover legal fees as
+          business, you can be sued for damaging a client’s property or employee related injuries. Independent contractor insurance helps cover legal fees as
           well as damages from a lawsuit.
         </li>
         <li className="pl-2">
-          Future clients of yours are most likely to be searching for your
-          independent contractor insurance to make sure they are protected if
+          Future clients of yours are most likely require you to have independent contractor insurance to make sure they are protected if
           anything happens in the renovations. Without independent contractor
           insurance, clients could be held responsible for damages or accidents
           caused by your work and are less likely to hire you if you do not have
@@ -78,7 +76,7 @@ const CommercialInsurance = () => (
         <li className="pl-2">
           Similar to car insurance, most states require independent contractors
           to have independent contractor insurance in order to perform work or
-          renovations on homes. It is advised for both you and your client to
+          renovations on homes or businesses. It is advised for both you and your client to
           have separate general liability insurance policies to ensure the
           protection of both parties.
         </li>
